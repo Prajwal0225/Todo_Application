@@ -1,0 +1,92 @@
+
+.inputbox{
+    padding : 10px;
+    margin:2px;
+    border-radius: 5px;
+    width: 30%;
+    background-color: rgb(230, 226, 226);
+    color: rgb(5, 6, 8);
+}
+
+.inputbox::placeholder{
+    color: #999; 
+    font-style: italic; 
+    font-size: 14px;
+}
+
+.inputdiv{
+    margin-top: 6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todosdiv{
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    margin-left:30%;
+    margin-right: 30%;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5%;
+    
+}
+
+.todoheading {
+    font-family: 'Parisienne', cursive;
+    font-size: 1.5em;
+}
+
+.todopara {
+    font-family: 'Allura', cursive;
+    font-size: 1em;
+}
+
+.addtodobtn{
+    padding:10px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: rgb(155, 250, 250);
+}
+ 
+.showtodobtn{
+    padding:10px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: aquamarine;
+} 
+
+.showtodobtndiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.makeascompletebtn{
+padding: 4px;
+margin: 4px;
+border-radius: 5px;
+background-color: rgb(246, 229, 208);
+}
+
+.deletetodobtn{
+    padding: 4px;
+    margin: 4px;
+    border-radius: 5px;
+    background-color: rgb(196, 245, 147);
+}
+button{
+    cursor: pointer;
+}
+
+.title{
+    font-family: 'Parisienne', cursive;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top:5%;
+}
+
